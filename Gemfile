@@ -37,7 +37,9 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'httparty'
 
-
+group :development, :test do
+	gem 'rspec-rails'
+end
 
 # Use unicorn as the app server
 # gem 'unicorn'
